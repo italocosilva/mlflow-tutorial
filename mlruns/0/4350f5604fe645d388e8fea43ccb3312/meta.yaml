@@ -1,0 +1,15 @@
+artifact_uri: file:///root/mlflow-tutorial/mlruns/0/4350f5604fe645d388e8fea43ccb3312/artifacts
+end_time: 1689606857687
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4350f5604fe645d388e8fea43ccb3312
+run_name: worried-gnu-448
+run_uuid: 4350f5604fe645d388e8fea43ccb3312
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689606852260
+status: 3
+tags: []
+user_id: root

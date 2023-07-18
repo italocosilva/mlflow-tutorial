@@ -1,0 +1,15 @@
+artifact_uri: file:///root/mlflow-tutorial/mlruns/0/9361c9163f86406990592c5a4ba02e52/artifacts
+end_time: 1689608348398
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9361c9163f86406990592c5a4ba02e52
+run_name: judicious-foal-580
+run_uuid: 9361c9163f86406990592c5a4ba02e52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1689608342999
+status: 3
+tags: []
+user_id: root
