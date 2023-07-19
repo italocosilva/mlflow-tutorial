@@ -10,7 +10,7 @@ import mlflow
 file_path = os.path.dirname(__file__)
 conf = OmegaConf.load(os.path.join(file_path, "config.yml"))
 
-mlflow.set_tracking_uri("http://" + conf["tracking_uri"])
+mlflow.set_tracking_uri(conf["tracking_uri"])
 mlflow.set_experiment(conf["experiment_name"])
 
 
@@ -58,7 +58,7 @@ def train(df, params):
 
 def main():
     # Load data
-    data_path = os.path.join(file_path, "..", "..", "data", "UCI_Credit_Card.csv")
+    data_path = os.path.join(file_path, "..", "..", "..", "data", "UCI_Credit_Card.csv")
     df = pd.read_csv(data_path)
 
     # Train model
